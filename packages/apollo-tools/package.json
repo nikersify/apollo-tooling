@@ -1,5 +1,8 @@
 {
   "name": "@nikersify/apollographql-apollo-tools",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.4.4",
   "author": "Apollo GraphQL <opensource@apollographql.com>",
   "license": "MIT",
@@ -19,7 +22,7 @@
     "graphql": "^14"
   },
   "dependencies": {
-    "apollo-env": "file:../apollo-env"
+    "apollo-env": "^0.6.1"
   },
   "jest": {
     "preset": "ts-jest",
@@ -50,5 +53,6 @@
         "diagnostics": true
       }
     }
-  }
+  },
+  "gitHead": "a28809c68d9512615b26328541373194b5809868"
 }
